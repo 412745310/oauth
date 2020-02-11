@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <script type="text/javascript">
+    	function click() {
+    		var client_id = "51171f9864c36ebfbf33";
+    		var redirect_uri = "http://localhost:8080/oauth/redirect";
+    		window.location.href = "https://github.com/login/oauth/authorize?client_id=" + client_id + "&redirect_uri=" + redirect_uri;
+    	}
+    </script>
+</head>
+<body>
+   <a href="javascript:click();">login with github</a>
+</body>
+</html>

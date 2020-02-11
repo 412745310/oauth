@@ -1,0 +1,20 @@
+spring:
+  freemarker:
+    suffix: .html
+    charset: UTF-8
+    content-type: text/html
+    allow-request-override: true
+    allow-session-override: true
+    expose-request-attributes: true
+    expose-session-attributes: true
+    expose-spring-macro-helpers: true
+    prefer-file-system-access: false
+    template-loader-path: classpath:/templates
+    settings: 
+      template_update_delay: 1
+      default_encoding: UTF-8
+      classic_compatible: true
+      date_format: yyyy-MM-dd
+      time_format: HH:mm:ss
+      datetime_format: yyyy-MM-dd HH:mm:ss
+      number_format: 0.##
